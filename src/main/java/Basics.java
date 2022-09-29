@@ -145,14 +145,14 @@ public class Basics {
         StringBuilder ret = new StringBuilder();
 
         // Fill in the rest of the body here
-        ret.append(to_split.split(" ")[0].charAt(0));
-        ret.append(to_split.split(" ")[1].charAt(0));
-        ret.append(to_split.split(" ")[2].charAt(0));
-        ret.append(to_split.split(" ")[3].charAt(0));
-        ret.append(to_split.split(" ")[4].charAt(0));
-        ret.append(to_split.split(" ")[5].charAt(0));
-        ret.append(to_split.split(" ")[6].charAt(0));
-
+        String[] words = to_split.split(" ");
+        ret.append(words[0].charAt(0));
+        ret.append(words[1].charAt(0));
+        ret.append(words[2].charAt(0));
+        ret.append(words[3].charAt(0));
+        ret.append(words[4].charAt(0));
+        ret.append(words[5].charAt(0));
+        ret.append(words[6].charAt(0));
 
         return ret.toString();
     }
